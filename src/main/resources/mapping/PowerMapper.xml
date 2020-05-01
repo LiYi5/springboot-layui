@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiyouedu.mapper.PowerMapper">
+    <resultMap id="BaseResultMap" type="com.xiyouedu.bean.Power">
+        <id column="power_id" property="powerId" jdbcType="INTEGER"/>
+        <result column="powername" property="powername" jdbcType="VARCHAR"/>
+        <result column="powerurl" property="powerurl" jdbcType="VARCHAR"/>
+    </resultMap>
+    <sql id="Example_Where_Clause">
+        <where>
+            <foreach collection="oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" suffix=")" prefixOverrides="and">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach collection="criterion.value" item="listItem" open="(" close=")"
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
+            </foreach>
+        </where>
+    </sql>
+    <sql id="Update_By_Example_Where_Clause">
+        <where>
+            <foreach collection="example.oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" suffix=")" prefixOverrides="and">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach collection="criterion.value" item="listItem" open="(" close=")"
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
+            </foreach>
+        </where>
+    </sql>
+    <sql id="Base_Column_List">
+        power_id, powername, powerurl
+    </sql>
+    <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.xiyouedu.bean.PowerExample">
+        select
+        <if test="distinct">
+            distinct
+        </if>
+        <include refid="Base_Column_List"/>
+        from power
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+        <if test="orderByClause != null">
+            order by ${orderByClause}
+        </if>
+    </select>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        <include refid="Base_Column_List"/>
+        from power
+        where power_id = #{powerId,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from power
+    where power_id = #{powerId,jdbcType=INTEGER}
+  </delete>
+    <delete id="deleteByExample" parameterType="com.xiyouedu.bean.PowerExample">
+        delete from power
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+    </delete>
+    <insert id="insert" parameterType="com.xiyouedu.bean.Power">
+        insert into power (power_id, powername, powerurl
+        )
+        values (#{powerId,jdbcType=INTEGER}, #{powername,jdbcType=VARCHAR}, #{powerurl,jdbcType=VARCHAR}
+        )
+    </insert>
+    <insert id="insertSelective" parameterType="com.xiyouedu.bean.Power">
+        insert into power
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="powerId != null">
+                power_id,
+            </if>
+            <if test="powername != null">
+                powername,
+            </if>
+            <if test="powerurl != null">
+                powerurl,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="powerId != null">
+                #{powerId,jdbcType=INTEGER},
+            </if>
+            <if test="powername != null">
+                #{powername,jdbcType=VARCHAR},
+            </if>
+            <if test="powerurl != null">
+                #{powerurl,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <select id="countByExample" parameterType="com.xiyouedu.bean.PowerExample" resultType="java.lang.Integer">
+        select count(*) from power
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+    </select>
+    <update id="updateByExampleSelective" parameterType="map">
+        update power
+        <set>
+            <if test="record.powerId != null">
+                power_id = #{record.powerId,jdbcType=INTEGER},
+            </if>
+            <if test="record.powername != null">
+                powername = #{record.powername,jdbcType=VARCHAR},
+            </if>
+            <if test="record.powerurl != null">
+                powerurl = #{record.powerurl,jdbcType=VARCHAR},
+            </if>
+        </set>
+        <if test="_parameter != null">
+            <include refid="Update_By_Example_Where_Clause"/>
+        </if>
+    </update>
+    <update id="updateByExample" parameterType="map">
+        update power
+        set power_id = #{record.powerId,jdbcType=INTEGER},
+        powername = #{record.powername,jdbcType=VARCHAR},
+        powerurl = #{record.powerurl,jdbcType=VARCHAR}
+        <if test="_parameter != null">
+            <include refid="Update_By_Example_Where_Clause"/>
+        </if>
+    </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.xiyouedu.bean.Power">
+        update power
+        <set>
+            <if test="powername != null">
+                powername = #{powername,jdbcType=VARCHAR},
+            </if>
+            <if test="powerurl != null">
+                powerurl = #{powerurl,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where power_id = #{powerId,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.xiyouedu.bean.Power">
+    update power
+    set powername = #{powername,jdbcType=VARCHAR},
+      powerurl = #{powerurl,jdbcType=VARCHAR}
+    where power_id = #{powerId,jdbcType=INTEGER}
+  </update>
+    <!--根据角色名查询权限-->
+    <select id="getpermissionByRolename" parameterType="java.lang.String" resultType="com.xiyouedu.bean.Power">
+      select powername from  role,role_power,power where role.role_id=role_power.id_role
+  and role_power.id_power=power.power_id
+  and role.rolename=#{rolename}
+    </select>
+        <!--查询所有权限-->
+    <select id="findAll" resultType="com.xiyouedu.bean.Power">
+        SELECT * FROM  power
+    </select>
+    <!--模糊查询-->
+    <select id="findLike" parameterType="java.lang.String" resultType="com.xiyouedu.bean.Power">
+        select * from power where power.powername like '%${powername}%'
+    </select>
+
+    <select id="findByPname" parameterType="java.lang.String" resultType="com.xiyouedu.bean.Power">
+       select * from power where power.powername=#{powername}
+    </select>
+
+    <select id="findByPUrl" parameterType="java.lang.String" resultType="com.xiyouedu.bean.Power">
+      select * from power where power.powerurl=#{powerurl}
+    </select>
+</mapper>

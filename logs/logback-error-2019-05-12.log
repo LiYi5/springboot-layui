@@ -1,0 +1,7 @@
+2019-05-12 10:54:36.942 default [http-nio-8222-exec-7] ERROR c.xiyouedu.Controller.UserController - 用户为：User{userId=null, username='null', password='null', role=null}用户名不存在
+2019-05-12 10:54:42.750 default [http-nio-8222-exec-6] ERROR c.xiyouedu.Controller.UserController - 用户为：User{userId=null, username='null', password='null', role=null}用户名不存在
+2019-05-12 10:54:49.595 default [http-nio-8222-exec-4] ERROR c.xiyouedu.Controller.UserController - 用户为：User{userId=null, username='null', password='null', role=null}用户名不存在
+2019-05-12 10:56:11.682 default [http-nio-8222-exec-2] ERROR c.xiyouedu.Controller.UserController - 用户为：User{userId=null, username='null', password='null', role=null}用户名不存在
+2019-05-12 10:56:23.513 default [http-nio-8222-exec-3] ERROR c.xiyouedu.Controller.UserController - 用户为：User{userId=null, username='null', password='null', role=null}用户名不存在
+2019-05-12 10:57:15.609 default [http-nio-8222-exec-2] ERROR c.xiyouedu.Controller.UserController - 用户为：User{userId=null, username='null', password='null', role=null}用户名不存在
+2019-05-12 10:57:27.612 default [http-nio-8222-exec-6] ERROR c.xiyouedu.Controller.UserController - 用户为：User{userId=null, username='null', password='null', role=null}用户名不存在

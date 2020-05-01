@@ -1,0 +1,156 @@
+2019-05-08 18:47:22.601 default [main] INFO  c.x.SpringbootMybatisApplication - Starting SpringbootMybatisApplication on asus with PID 2780 (D:\task\target\classes started by asus1 in D:\task)
+2019-05-08 18:47:22.604 default [main] INFO  c.x.SpringbootMybatisApplication - No active profile set, falling back to default profiles: default
+2019-05-08 18:47:32.669 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.xiyouedu.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$8335c72f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:33.147 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:33.158 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$577ca0dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:33.161 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:33.333 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:33.749 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.528 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.536 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.537 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.539 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [com.sun.proxy.$Proxy51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.543 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.545 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.549 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.549 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [com.sun.proxy.$Proxy53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.550 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userServiceImpl' of type [com.xiyouedu.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:36.551 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.xiyouedu.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:40.624 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:40.721 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:40.763 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24a84fad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:47:44.594 default [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8222 (http)
+2019-05-08 18:47:44.971 default [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8222"]
+2019-05-08 18:47:45.173 default [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-08 18:47:45.174 default [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-08 18:47:45.216 default [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-05-08 18:47:45.216 default [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-05-08 18:47:45.216 default [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-08 18:47:45.216 default [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-08 18:47:46.121 default [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-05-08 18:47:47.030 default [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-08 18:47:47.030 default [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 23852 ms
+2019-05-08 18:47:48.802 default [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 18:47:51.084 default [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8222"]
+2019-05-08 18:47:51.612 default [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8222 (http) with context path ''
+2019-05-08 18:47:51.615 default [main] INFO  c.x.SpringbootMybatisApplication - Started SpringbootMybatisApplication in 33.96 seconds (JVM running for 61.682)
+2019-05-08 18:48:13.252 default [http-nio-8222-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-08 18:48:13.253 default [http-nio-8222-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-08 18:48:13.267 default [http-nio-8222-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-05-08 18:48:34.084 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 执行认证逻辑
+2019-05-08 18:48:34.084 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 用户登录认证：验证当前Subject时获取到token为：org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false
+2019-05-08 18:48:35.469 default [http-nio-8222-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-05-08 18:48:35.488 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行认证逻辑
+2019-05-08 18:48:35.488 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 用户登录认证：验证当前Subject时获取到token为：org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false
+2019-05-08 18:48:37.377 default [http-nio-8222-exec-1] INFO  c.xiyouedu.Controller.UserController - 用户为User{userId=null, username='admin', password='123456', role=null}登陆成功！
+2019-05-08 18:48:37.377 default [http-nio-8222-exec-2] INFO  c.xiyouedu.Controller.UserController - 用户为User{userId=null, username='admin', password='123456', role=null}登陆成功！
+2019-05-08 18:48:45.321 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:48:45.694 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:48:49.247 default [http-nio-8222-exec-5] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:48:49.251 default [http-nio-8222-exec-5] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:48:50.183 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:48:50.188 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:48:50.356 default [http-nio-8222-exec-3] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:48:50.359 default [http-nio-8222-exec-3] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:03.034 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:03.036 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:03.044 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:03.045 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:03.047 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:03.063 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:06.113 default [http-nio-8222-exec-7] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:06.139 default [http-nio-8222-exec-7] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:06.600 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:06.604 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:06.787 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:06.792 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:18.196 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:18.200 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:18.668 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:18.672 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:18.860 default [http-nio-8222-exec-5] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:18.864 default [http-nio-8222-exec-5] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:19.229 default [http-nio-8222-exec-8] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:19.232 default [http-nio-8222-exec-8] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:19.398 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:19.454 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:19.581 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:19.584 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:36.271 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:49:36.276 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:50.645 default [http-nio-8222-exec-7] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:51.028 default [http-nio-8222-exec-8] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:51.314 default [http-nio-8222-exec-7] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:51.332 default [http-nio-8222-exec-8] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:51.534 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:51.542 default [http-nio-8222-exec-1] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:51.678 default [http-nio-8222-exec-6] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:51:51.682 default [http-nio-8222-exec-6] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:55.418 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:55.421 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:57.585 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:57.587 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:57.763 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:57.765 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:57.937 default [http-nio-8222-exec-5] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:57.941 default [http-nio-8222-exec-5] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:58.920 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:58.926 default [http-nio-8222-exec-2] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:59.180 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:53:59.184 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:54:40.446 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 执行认证逻辑
+2019-05-08 18:54:40.446 default [http-nio-8222-exec-9] INFO  c.x.service.impl.UserServiceImpl - 用户登录认证：验证当前Subject时获取到token为：org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false
+2019-05-08 18:54:40.449 default [http-nio-8222-exec-9] INFO  c.xiyouedu.Controller.UserController - 用户为User{userId=null, username='admin', password='123456', role=null}登陆成功！
+2019-05-08 18:54:42.143 default [http-nio-8222-exec-6] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:54:42.149 default [http-nio-8222-exec-6] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:54:44.158 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:54:44.162 default [http-nio-8222-exec-10] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:54:49.867 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:54:49.869 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:58:16.638 default [main] INFO  c.x.SpringbootMybatisApplication - Starting SpringbootMybatisApplication on asus with PID 6900 (D:\task\target\classes started by asus1 in D:\task)
+2019-05-08 18:58:16.671 default [main] INFO  c.x.SpringbootMybatisApplication - No active profile set, falling back to default profiles: default
+2019-05-08 18:58:26.438 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.xiyouedu.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$96926c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:26.846 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:26.863 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ddb00075] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:26.867 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:27.016 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:27.367 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.028 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.067 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.068 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.071 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [com.sun.proxy.$Proxy51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.077 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.079 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.084 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.086 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [com.sun.proxy.$Proxy53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.087 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userServiceImpl' of type [com.xiyouedu.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:30.088 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.xiyouedu.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:31.955 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:32.177 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:32.215 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aadbaf45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-08 18:58:35.829 default [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8222 (http)
+2019-05-08 18:58:36.135 default [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8222"]
+2019-05-08 18:58:36.593 default [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-08 18:58:36.593 default [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-05-08 18:58:36.599 default [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-05-08 18:58:36.600 default [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-05-08 18:58:36.600 default [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-08 18:58:36.600 default [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-08 18:58:43.572 default [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-05-08 18:58:44.320 default [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-08 18:58:44.321 default [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 26375 ms
+2019-05-08 18:58:46.810 default [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 18:58:49.150 default [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8222"]
+2019-05-08 18:58:49.566 default [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8222 (http) with context path ''
+2019-05-08 18:58:49.622 default [main] INFO  c.x.SpringbootMybatisApplication - Started SpringbootMybatisApplication in 39.263 seconds (JVM running for 53.15)
+2019-05-08 18:58:59.053 default [http-nio-8222-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-08 18:58:59.054 default [http-nio-8222-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-08 18:58:59.121 default [http-nio-8222-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 67 ms
+2019-05-08 18:59:13.167 default [http-nio-8222-exec-6] INFO  c.x.service.impl.UserServiceImpl - 执行认证逻辑
+2019-05-08 18:59:13.167 default [http-nio-8222-exec-6] INFO  c.x.service.impl.UserServiceImpl - 用户登录认证：验证当前Subject时获取到token为：org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false
+2019-05-08 18:59:14.534 default [http-nio-8222-exec-6] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-05-08 18:59:15.634 default [http-nio-8222-exec-6] INFO  c.xiyouedu.Controller.UserController - 用户为User{userId=null, username='admin', password='123456', role=null}登陆成功！
+2019-05-08 18:59:20.756 default [http-nio-8222-exec-8] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:59:20.802 default [http-nio-8222-exec-8] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:59:39.476 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑
+2019-05-08 18:59:39.481 default [http-nio-8222-exec-4] INFO  c.x.service.impl.UserServiceImpl - 执行授权逻辑

@@ -1,0 +1,1 @@
+2019-06-11 15:38:42.608 default [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="common/header :: htmlhead"></head>
+<body>
+
+<!--添加权限和搜索按钮-->
+<script type="text/html" id="toolbarDemo">
+    <div class="demoTable">
+        权限名查找：
+        <div class="layui-inline">
+            <input class="layui-input" name="dpid" id="dpid">
+        </div>
+
+        <button class="layui-btn" id="searchpermission" data-type="reload">搜索</button>
+        <!--<button class="layui-btn layui-btn-normal" onclick="addpower()">添加权限</button>-->
+    </div>
+</script>
+
+
+
+<!--权限信息表格-->
+<table class="layui-table" id="permissiontable" lay-filter="permissiontable"></table>
+
+<!--<script type="text/html" id="barDemo">-->
+    <!--<a class="layui-btn layui-btn-xs" lay-event="edit"><i class="layui-icon">&#xe642;</i>编辑</a>-->
+    <!--<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"> <i class="layui-icon">&#xe640;</i>删除</a>-->
+<!--</script>-->
+
+
+
+<!--添加权限表单-->
+<div class="layer_self_wrap" id="addPermission" style="display:none;">
+    <div class="layui-col-md11">
+        <form  class="layui-form layui-form-pane" method="post" action="" style="margin-top: 20px;">
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">权限名</label>
+                <div class="layui-input-inline">
+                    <input id="pname" name="powername" lay-verify="required" autocomplete="off" class="layui-input" type="text"/>
+                </div>
+            </div>
+            <div class="layui-form-item" >
+                <label class="layui-form-label">powerurl</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="powerurl" id="purl" lay-verify="required"  class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="put" >立即提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="../../static/js/permissionList.js" th:src="@{/js/permissionList.js}"></script>
+</body>
+</html>

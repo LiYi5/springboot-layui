@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>登陆</title>
+
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css" media="all" th:href="@{/css/style.css}"/>
+
+    <script type="text/javascript" src="../static/js/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
+
+
+</head>
+<body>
+
+
+<!--<a th:href="login">用户登陆</a>-->
+<!--<a th:href="register">用户注册</a>-->
+
+<div class="message warning">
+    <div class="inset">
+        <div class="login-head">
+            <h1>用户登陆</h1>
+            <div class="alert-close"></div>
+        </div>
+        <form action="" th:action="@{~/login.action}" method="post">
+            <h5 th:text="${msg}" style="color: darkmagenta" align="center"></h5>
+
+            <ul>
+                <li><input type="text" placeholder="用户名" name="username"/></li>
+                <li><input type="password" placeholder="密码" name="password"/></li>
+            </ul>
+
+            <div class="submit" align="center">
+                <input type="submit" value="登录" align="center">
+                <!--<h4><a href="#">注册</a></h4>-->
+                <div class="clear"></div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

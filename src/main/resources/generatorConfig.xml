@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- 配置数据库连接的包 -->
+    <classPathEntry location="lib/mysql-connector-java-5.1.38.jar"/>
+    <context id="MyGererator" targetRuntime="MyBatis3">
+
+        <!-- 这个标签可以去掉注释 -->
+        <commentGenerator>
+            <!-- 去掉注释 -->
+            <property name="suppressAllComments" value="true"/>
+            <!-- 去掉时间戳 -->
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+
+
+        <!-- 数据库连接信息 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/fristdemo"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <!-- JAVA JDBC数据类型转换 -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!--  javaModelGenerator javaBean配置
+        targetPackage 输入包名 输出路径
+        targetProject 输出项目位置 -->
+        <javaModelGenerator targetPackage="com.xiyouedu.bean" targetProject="src/main/java">
+            <!-- enableSubPackages 是否开启子包名称 是否在包名后边加上scheme名称 -->
+            <property name="enableSubPackages" value="false"/>
+            <!-- 在Set中加入.trim(去掉空格) -->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!-- mapper.xml -->
+        <sqlMapGenerator targetPackage="mapping" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <!-- java接口  -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.xiyouedu.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!-- 数据表 要根据数据库中的表来生成  -->
+        <table tableName="user"></table>
+        <table tableName="power"></table>
+        <table tableName="role"></table>
+        <table tableName="role_power"></table>
+        <table tableName="user_role"></table>
+
+    </context>
+</generatorConfiguration>
